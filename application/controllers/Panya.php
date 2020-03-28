@@ -18,7 +18,7 @@ class Panya extends CI_Controller {
     }
     
     function __destruct() {
-        parent::__denstruct();
+       
         {
             echo "Malinun";
         }

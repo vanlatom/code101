@@ -24,5 +24,13 @@ class Home extends CI_Controller {
         $this->index();
         echo"<br>map2";
     }
+
+    public function getview()
+	{
+        
+        $this->load->view('home_viwe'); 
+
+        
+    }
     
 }
